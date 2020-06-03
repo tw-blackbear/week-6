@@ -1,0 +1,219 @@
+body {
+    line-height: 1.5;
+}
+
+.btn-green {
+    background-color: #0E8A00;
+    color: #ffff;
+}
+
+
+.header {
+    position: relative;
+    height: 61px;
+    z-index: 2;
+
+    .header_h1 {
+        font-family: 'Raleway', sans-serif;
+
+        a {
+            font-size: 24px;
+            font-weight: 700;
+            font-style: italic;
+            color: #000;
+        }
+
+    }
+
+    li {
+        a {
+            font-weight: 500;
+            color: #fff;
+        }
+    }
+}
+
+.bg-c {
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week6/index-1.jpg?raw=true");
+    background-position: center center;
+    background-size: cover;
+    height: 640px;
+    background-repeat: no-repeat;
+
+}
+
+
+.indeximg {
+    position: relative;
+    top: -61px;
+    margin-bottom: -61px;
+    z-index: 1;
+
+    h2 {
+        font-size: 48px;
+        font-weight: 700;
+        color: #121212;
+    }
+
+    h3 {
+        font-size: 24px;
+        color: #0000009A;
+
+    }
+}
+
+//
+.brand {
+    text-align: left;
+
+    .li-inside:nth-child(2) {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    h4 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    p {
+        color: #0000009A;
+        font-weight: 500;
+        margin-bottom: 24px;
+    }
+
+    a {
+        color: #0E8A00;
+        font-weight: 700;
+        text-decoration: none;
+    }
+}
+
+.banner {
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week6/index-5.jpg?raw=true");
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    color: #fff;
+    background-repeat: no-repeat;
+
+    h3 {
+        font-size: 32px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    span {
+        a {
+            color: #0E8A00;
+        }
+    }
+
+}
+
+.text-line-through {
+    text-decoration: line-through;
+}
+
+.carousel-all {
+    position: relative;
+
+    h5 {
+        font-weight: 400;
+        font-size: 24px;
+        padding: 6px 0;
+    }
+}
+
+
+.swiper-slide {
+    img {
+        width: 450px;
+        height: 350px;
+        object-fit: cover;
+    }
+}
+
+.sale {
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    right: 16px;
+    top: 16px;
+    color: #FFFFFF;
+}
+
+.subscrib {
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week6/footer.jpg?raw=true");
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+
+    h4 {
+        font-size: 48px;
+        color: #fff;
+    }
+}
+
+.no-m {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.input-txt {
+    background: #ffffff00;
+    border: 1px solid #FFFFFF99;
+    padding: 19px 16px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.btn-subscribe {
+    padding: 19px 26px;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.copyright {
+    padding: 16px 0;
+
+    a {
+        text-decoration: none;
+    }
+
+    h3 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        font-style: italic;
+        color: #fff;
+
+    }
+
+    span {
+        font-size: 14px;
+        color: #FFFFFF99;
+
+    }
+
+    ul {
+        li:nth-child(2) {
+            margin: 0 16px;
+        }
+
+        & a {
+            color: #FFFFFFDE;
+            font-size: 14px;
+
+        }
+    }
+
+
+
+}
